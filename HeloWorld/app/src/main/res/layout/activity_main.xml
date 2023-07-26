@@ -15,17 +15,25 @@
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
+            android:visibility="gone"
             android:layout_height="?attr/actionBarSize" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_main" />
-
+    <include layout="@layout/content_main" android:visibility="gone"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:text="Helo World"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:layout_height="wrap_content"></TextView>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
+        android:visibility="gone"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
         app:srcCompat="@android:drawable/ic_dialog_email" />
