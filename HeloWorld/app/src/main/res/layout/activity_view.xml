@@ -4,6 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
     android:layout_height="match_parent"
     tools:context=".View">
     <TextView
@@ -12,9 +14,16 @@
         android:text="Hi"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:textSize="200sp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_height="match_parent" />
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:text="@string/Hellow"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+    </EditText>
 
 </LinearLayout>
