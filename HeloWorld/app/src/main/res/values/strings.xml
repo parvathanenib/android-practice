@@ -44,4 +44,12 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="Hellow">Hellow</string>
+    <string name="login">Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="email">Email</string>
+    <string name="enter_the_mail">Enter the mail</string>
+    <string name="password">Password</string>
+    <string name="enter_the_password">Enter the password</string>
+    <string name="sumbit">Sumbit</string>
 </resources>
