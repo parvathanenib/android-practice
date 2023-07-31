@@ -27,9 +27,9 @@
         android:layout_margin="10dp"
         android:layout_height="wrap_content"/>
     <EditText
-        android:id="@+id/et"
+        android:id="@+id/etm"
         android:layout_width="match_parent"
-       android:text="@string/enter_the_mail"
+      android:hint="Mailid"
         android:textSize="20sp"
         android:layout_margin="10dp"
         android:layout_height="wrap_content">
@@ -45,8 +45,9 @@
     <EditText
         android:id="@+id/edp"
         android:layout_width="match_parent"
-       android:text="@string/enter_the_password"
+        android:hint="Password"
         android:textSize="20sp"
+        android:inputType="textPassword"
         android:layout_margin="10dp"
         android:layout_height= "wrap_content"/>
     <Button
